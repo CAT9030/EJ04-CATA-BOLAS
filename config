@@ -6,8 +6,8 @@
 	symlinks = false
 	ignorecase = true
 [remote "origin"]
-	url = https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+	url = https://github.com/CAT9030/EJ04-CATA-BOLAS.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-[gui]
-	wmstate = normal
-	geometry = 893x435+130+130 175 196
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
