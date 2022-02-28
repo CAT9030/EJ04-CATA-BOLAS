@@ -1,5 +1,8 @@
 class Azul extends ColorPrimarioRGB{
-    constructor(r,g,b,x,y){
-        super(r,g,b,x,y);
+    constructor(x,y){
+        super(x,y);
+        this.r=0;
+        this.g=0;
+        this.b=255;
     }
 }

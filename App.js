@@ -1,14 +1,20 @@
 class App {
     constructor(){
-        this.colores = [];
+        this.bolas = [];
         for(let i=0; i<12; i++){
-            this.colores[i] = new ColorItem (255,0,290, random(0,400), random(0,400));
+            const randomPosX= Math.floor(Math.random()*300+50)
+            const randomPosY= Math.floor(Math.random()*300+50)
+            this.bolas.push(this.getRandomInstance(randomPosX,randomPosY));
         }
+
+
+
 }
 
+
 mostrar(){
-    for(let i=0; i<this.colores.length; i++){
-        let a = this.colores[i];
+    for(let i=0; i<this.bolas.length; i++){
+        let a = this.bolas[i];
         a.mostrar();
         a.mover();
     }

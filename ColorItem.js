@@ -1,8 +1,13 @@
+
+//new Rojo = random()*4;
+//new Verde = random()*4;
+//new Azul = random()*4;
+
 class ColorItem {
     constructor(r,g,b,x,y){
         this.r = r;
         this.g = g;
-        this.b = b;
+        this.b  = b;
         this.x = x;
         this.y = y;
         this.vel = 1;
@@ -10,10 +15,17 @@ class ColorItem {
         this.mov = parseInt(random(0,2));
     }
 
+
+    
+
+
     mostrar(){
         fill(this.r, this.g, this.b);
         ellipse(this.x,this.y,30);
+        
     }
+
+
 
     mover(){
         //switch para movimiento aleatorio

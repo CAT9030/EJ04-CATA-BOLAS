@@ -2,6 +2,6 @@
   "include": [
     "*.js",
     "libraries/*.js",
-    "/Users/lauraforero/.vscode/extensions/samplavigne.p5-vscode-1.2.8/p5types/global.d.ts"
+    "/Users/CATA9030/.vscode/extensions/samplavigne.p5-vscode-1.2.8/p5types/global.d.ts"
   ]
 }
